@@ -1,6 +1,7 @@
 class Enemy extends Obstacle{
   constructor(x, y, width, height,enemyImage) {
     super(x, y, width, height);
+    
     this.enemyImage = enemyImage;
   }
   removeFromWorld(){
